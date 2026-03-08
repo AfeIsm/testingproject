@@ -1,0 +1,65 @@
+{
+  "scheduleOption": {
+    "id": "string",
+    "label": "string",
+    "score": "number",
+    "reasons": ["string"],
+    "classes": [
+      {
+        "courseCode": "string",
+        "section": "string",
+        "professor": "string",
+        "days": ["string"],
+        "startTime": "string",
+        "endTime": "string",
+        "location": "string"
+      }
+    ]
+  },
+
+  "freeTimeBlock": {
+    "id": "string",
+    "day": "string",
+    "startTime": "string",
+    "endTime": "string",
+    "durationMinutes": "number",
+    "type": "string",
+    "recommendations": ["recommendation"]
+  },
+
+  "recommendation": {
+    "id": "string",
+    "type": "string",
+    "title": "string",
+    "description": "string",
+    "startTime": "string",
+    "endTime": "string",
+    "location": "string",
+    "score": "number"
+  },
+
+  "event": {
+    "id": "string",
+    "title": "string",
+    "category": "string",
+    "location": "string",
+    "startTime": "string",
+    "endTime": "string",
+    "description": "string"
+  },
+
+  "userProfile": {
+    "id": "string",
+    "name": "string",
+    "major": "string",
+    "year": "string",
+    "completedCourses": ["string"],
+    "desiredCourses": ["string"],
+    "preferences": {
+      "earliestClass": "string",
+      "latestClass": "string",
+      "maxClassesPerDay": "number",
+      "difficultyPreference": "string"
+    }
+  }
+}
